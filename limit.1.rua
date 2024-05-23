@@ -1,0 +1,5 @@
+wrk.method = "POST"
+wrk.body   = '{"name":"social.post","limit":1,"page":10,"and":[{"field":"status","op":"$in","value":[0,1,9]}],"sort":[{"field":"create_time","order":"DESC"}]}'
+wrk.headers["Content-Type"] = "application/json"
+wrk.headers["Accept-Encoding"] = "gzip, deflate, br, zstd"
+wrk.headers["Authorization"] = "2, 2400000002, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6IjI0MDAwMDAwMDIiLCJpcCI6IjEwLjg4LjEzOC4yMDgiLCJ0eXBlIjoyLCJwYWNrYWdlX2lkIjoxLCJnZW9faW5mbyI6eyJjb3VudHJ5IjoiSEsiLCJyZWdpb24iOiJIb25nIEtvbmciLCJjaXR5IjoiSG9uZyBLb25nIn0sImlzcyI6IkFETUlOX0xPR0lOIiwic3ViIjoiYXV0aC1zZXJ2ZXIiLCJleHAiOjE3MTY5NTQzMDYsIm5iZiI6MTcxNjM0OTUwNiwiaWF0IjoxNzE2MzQ5NTA2LCJqdGkiOiJhZDRlZWE3MjM0MTI2NzJiZTBjNWZiOWYwMmMzZDYwZCJ9.9LNzdHZ5DZ9oLMOF1T7SAVEaFO7fZ9l81awT6Q0Khgc"
